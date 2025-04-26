@@ -1,78 +1,87 @@
-🎯 Number Guessing Game (CLI)
+# 🎯 Number Guessing Game (CLI)
+
 A fun and interactive command-line Number Guessing Game built with Node.js!
+You pick a difficulty level, and try to guess the number the computer randomly chose. Can you guess it before your chances run out? Project idea https://roadmap.sh/projects/number-guessing-game
 
-You pick a difficulty level, and try to guess the number the computer randomly chose. Can you guess it before your chances run out?
+## 📦 Installation
 
-📦 Installation
 Make sure you have Node.js installed.
-
 Clone the repository or download the project files.
 
-bash
-Copy code
+```bash
 git clone <your-repo-link>
 cd number-guessing-game
+```
+
 Make the script executable (optional):
 
-bash
-Copy code
+```bash
 chmod +x main.js
-🚀 Usage
+```
+
+## 🚀 Usage
+
 Run the game using:
 
-bash
-Copy code
+```bash
 node main.js
+```
+
 or if you made it executable:
 
-bash
-Copy code
+```bash
 ./main.js
+```
+
 Follow the on-screen instructions to play.
 
-🕹 How to Play
-The computer randomly selects a number between 1 and 100.
+## 🕹 How to Play
 
-Choose your difficulty level:
+1. The computer randomly selects a number between 1 and 100.
 
-Easy: 10 attempts
+2. Choose your difficulty level:
 
-Medium: 5 attempts
+   - Easy: 10 attempts
 
-Hard: 3 attempts
+   - Medium: 5 attempts
 
-Enter your guesses one by one.
+   - Hard: 3 attempts
 
-After each guess, you will be told whether the correct number is greater or lesser than your guess.
+3. Enter your guesses one by one.
 
-Guess the number before you run out of attempts!
+4. After each guess, you will be told whether the correct number is greater or lesser than your guess.
 
-You can also type exit at any time to quit the game.
+5. Guess the number before you run out of attempts!
 
-🛠 Features
-Three difficulty levels
+You can also type `exit` at any time to quit the game.
 
-Input validation
+## 🛠 Features
 
-Immediate feedback after each guess
+- Three difficulty levels
 
-Graceful exit on completion or user request
+- Input validation
 
-Friendly CLI messages with emojis 😄
+- Immediate feedback after each guess
 
-📂 Project Structure
-css
-Copy code
+- Graceful exit on completion or user request
+
+- Friendly CLI messages with emojis 😄
+
+## 📂 Project Structure
+
+```
 number-guessing-game/
 ├── main.js
 ├── README.md
-main.js → The main game logic
+```
 
-README.md → You're reading it!
+- `main.js` → The main game logic
 
-✨ Example Gameplay
-mathematica
-Copy code
+- `README.md` → You're reading it!
+
+## ✨ Example Gameplay
+
+```
 Welcome ... 👋 to the Number Guessing Game!
 
 I am thinking of a number between 1 and 100
@@ -95,8 +104,12 @@ Enter your guess: 25
 Enter your guess: 35
 💯 Congratulations! You guessed the correct number in 3 attempts
 Exiting program... goodbye! 👋
-💬 Contributing
+```
+
+## 💬 Contributing
+
 Feel free to fork this project and submit pull requests if you have ideas to improve it — maybe adding more modes, hints, or a score tracker!
 
-📄 License
+## 📄 License
+
 This project is open-source and free to use.
